@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
+import COLORS from "../../theme/colors";
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#FFF',
+        backgroundColor: COLORS.white,
         padding: 15,
         borderRadius: 10,
         flexDirection: 'row',
@@ -13,7 +14,7 @@ const styles = StyleSheet.create({
     icon: {
         width: 24,
         height: 24,
-        backgroundColor: '#55BCF6',
+        backgroundColor: COLORS.blue,
         opacity: 0.4,
         borderRadius: 5,
         marginRight: 15,

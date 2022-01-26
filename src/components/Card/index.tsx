@@ -5,7 +5,7 @@ import styles from './styles';
 interface Props {
     text: string;
 }
-const Task = ({ text }: Props) => (
+const Card = ({ text }: Props) => (
     <View style={styles.container}>
         <View style={styles.item}>
             <View style={styles.icon} />
@@ -14,4 +14,4 @@ const Task = ({ text }: Props) => (
     </View>
 )
 
-export default Task;
+export default Card;
